@@ -3,7 +3,7 @@ from django.utils.text import slugify
 from django.utils.html import format_html
 
 
-https://tarek421995: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@github.com/tarek421995/NWC.git
+# https://tarek421995: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@github.com/tarek421995/NWC.git
 
 
 

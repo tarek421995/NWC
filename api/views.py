@@ -14,7 +14,7 @@ class HeroListAPIView(APIView):
 
 class OurParntersApiView(APIView):
     def get(self, request):
-        ourparnters = OurParnters.objects.all()
+        ourparnters = Partners.objects.all()
         serializer = OurParntersSerializer(ourparnters, many=True, context={'request': request})
         return Response(serializer.data)   
 
