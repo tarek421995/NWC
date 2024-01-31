@@ -1,6 +1,12 @@
 from django.db import models
 from django.utils.text import slugify
 from django.utils.html import format_html
+
+
+https://tarek421995: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@github.com/tarek421995/NWC.git
+
+
+
 class Hero(models.Model):
     show_in_home = models.BooleanField(default=False,verbose_name=u"تظهر في الصفخة الرئيسية ؟ / Show in home page ? ")
     title_en=models.CharField(max_length=2000,blank=True,verbose_name=u"Title ")
@@ -110,8 +116,9 @@ class Service(models.Model):
         self._original_title_en = self.title_en 
     class Meta:
         verbose_name = 'Service'
+
 class ListServiceDetails(models.Model):
-    
+
     title_en=models.CharField(max_length=2000,verbose_name=u"Title ")
     title_ar=models.CharField(max_length=2000,blank=True,default="",verbose_name=u"العنوان ")
     text_en=models.CharField(max_length=2000,blank=True,default="",verbose_name=u"Text ")
