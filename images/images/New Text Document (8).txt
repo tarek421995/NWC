@@ -1,0 +1,27 @@
+api get_feature_by_slug from /<slug> ==> feature/<slug>
+---------------------------------------------------------
+
+api get_CategoriesBySlug her response from :
+{
+    "Categories" : [],
+    "message": "Category Details"
+}
+to 
+{
+    "category": {},
+    "message": "Category Details"
+}
+
+
+-------------------------------------------------------------------------
+get_BrandBySlug her response from {
+    "brand": [],
+    "message": "Brand Details"
+}
+to 
+{
+    "brand": {},
+    "message": "Brand Details"
+}
+----------------------------------------------------
+add api get_hero_section his url http://localhost:8070/data/hero_section 
